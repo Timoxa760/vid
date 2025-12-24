@@ -41,13 +41,13 @@
 
 ### Установка зависимостей
 
-pip install customtkinter opencv-python pygame pillow numpy
+'pip install customtkinter opencv-python pygame pillow numpy'
 
 
 
 Проверь, что FFmpeg установлен и доступен из командной строки:
 
-ffmpeg -version
+'ffmpeg -version'
 
 
 
@@ -55,8 +55,8 @@ ffmpeg -version
 
 ### Клонирование репозитория
 
-git clone https://github.com/Timoxa760/vid.git
-cd vid
+'git clone https://github.com/Timoxa760/vid.git'
+'cd vid'
 
 
 
@@ -64,7 +64,7 @@ cd vid
 
 Запуск:
 
-python vid2.py
+'python vid2.py'
 
 
 После запуска в терминале откроется интерактивное меню.
@@ -109,7 +109,7 @@ python vid2.py
 
 Запуск:
 
-python vid3_0.1.6.py
+'python vid3_0.1.6.py'
 
 
 Откроется окно на CustomTkinter.
@@ -170,7 +170,7 @@ python vid3_0.1.6.py
 
 ### Минимальный пример CLI
 
-python vid2.py
+'python vid2.py'
 
 указать путь к видео
 выбрать ширину 120 символов
