@@ -40,9 +40,9 @@
   - `numpy`
 
 ### Установка зависимостей
-
-```pip install customtkinter opencv-python pygame pillow numpy```
-
+```
+pip install customtkinter opencv-python pygame pillow numpy
+```
 
 
 Проверь, что FFmpeg установлен и доступен из командной строки:
