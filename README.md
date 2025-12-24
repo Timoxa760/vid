@@ -46,26 +46,26 @@ pip install customtkinter opencv-python pygame pillow numpy
 
 
 Проверь, что FFmpeg установлен и доступен из командной строки:
-
-`ffmpeg -version`
-
+```
+ffmpeg -version
+```
 
 
 Если команда не находится, установи FFmpeg через пакетный менеджер (Linux/macOS) или скачай бинарники с сайта ffmpeg.org и добавь в `PATH` (Windows).[web:1]
 
 ### Клонирование репозитория
-
-`git clone https://github.com/Timoxa760/vid.git`
-`cd vid`
-
+```
+git clone https://github.com/Timoxa760/vid.git
+cd vid
+```
 
 
 ## Использование (CLI, `vid2.py`)
 
 Запуск:
-
-`python vid2.py`
-
+```
+python vid2.py
+```
 
 После запуска в терминале откроется интерактивное меню.
 ### Основной сценарий
@@ -108,9 +108,9 @@ pip install customtkinter opencv-python pygame pillow numpy
 ## Использование (GUI, `vid3_0.1.6.py`)
 
 Запуск:
-
-`python vid3_0.1.6.py`
-
+```
+python vid3_0.1.6.py
+```
 
 Откроется окно на CustomTkinter.
 
@@ -169,9 +169,9 @@ pip install customtkinter opencv-python pygame pillow numpy
 ## Примеры
 
 ### Минимальный пример CLI
-
-`python vid2.py`
-
+```
+python vid2.py
+```
 указать путь к видео
 выбрать ширину 120 символов
 включить сохранение PNG + MP4
@@ -181,7 +181,10 @@ pip install customtkinter opencv-python pygame pillow numpy
 
 ### Минимальный пример GUI
 
-1. Запусти `python vid3_0.1.6.py`.
+1. Запусти 
+```
+python vid3_0.1.6.py
+```
 2. Выбери видеофайл через кнопку.
 3. Задай, например:
    - ширина: 120;
