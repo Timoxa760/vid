@@ -41,8 +41,7 @@
 
 ### Установка зависимостей
 
-`pip install customtkinter opencv-python pygame pillow numpy`
-undefined
+```pip install customtkinter opencv-python pygame pillow numpy```
 
 
 
